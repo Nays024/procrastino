@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7865a9"/><stop offset="1" stop-color="#55aaa4"/></linearGradient></defs>
+<style>
+.t{font:700 34px Arial,sans-serif;fill:#fff}
+.s{font:500 19px Arial,sans-serif;fill:#f5f1ff}
+.f{font:500 15px Arial,sans-serif;fill:#f5f1ff;opacity:.85}
+.lb{font:700 20px Arial,sans-serif;fill:#332a4b}
+.ax{font:700 15px Arial,sans-serif;fill:#f5f1ff}
+.num{font:700 24px Arial,sans-serif;fill:#fff}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.lb2{font:700 18px Arial,sans-serif;fill:#332a4b}
+.s2{font:600 18px Arial,sans-serif;fill:#fff}
+.nd{font:700 18px Arial,sans-serif;fill:#332a4b}
+.cap{font:700 17px Arial,sans-serif;fill:#fff}
+
+.ck{transform-box:fill-box;transform-origin:center;animation:ck 6s ease-in-out infinite}
+.c2{animation-delay:.8s}.c3{animation-delay:1.6s}.c4{animation-delay:2.4s}
+@keyframes ck{0%,4%{opacity:0;transform:scale(.3)}14%,86%{opacity:1;transform:scale(1)}96%,100%{opacity:0;transform:scale(.3)}}
+.dash{stroke-dasharray:6 7;animation:flow 1.8s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-26}}
+</style>
+<rect width="760" height="430" rx="34" fill="url(#g)"/>
+<circle cx="700" cy="60" r="110" fill="#fff" opacity=".08"/><circle cx="60" cy="390" r="150" fill="#fff" opacity=".07"/>
+<text x="55" y="68" class="t">Distraction-free space</text><text x="55" y="100" class="s">Only what your task needs</text>
+<rect x="50" y="130" width="330" height="240" rx="24" fill="#fff" fill-opacity=".16" stroke="#fff" stroke-opacity=".4" stroke-width="3"/><rect x="90" y="196" width="150" height="100" rx="10" fill="#3d3257" stroke="#fff" stroke-width="4"/><rect x="70" y="296" width="190" height="14" rx="7" fill="#fff"/><rect x="108" y="214" width="14" height="14" rx="3" fill="#55aaa4"/><rect x="130" y="218" width="84" height="6" rx="3" fill="#fff"/><rect x="108" y="244" width="106" height="6" rx="3" fill="#fff" opacity=".45"/><rect x="108" y="262" width="80" height="6" rx="3" fill="#fff" opacity=".45"/><rect x="278" y="262" width="80" height="92" rx="8" fill="#fff" opacity=".95"/><rect x="290" y="282" width="56" height="5" rx="2.5" fill="#d9d3ea"/><rect x="290" y="300" width="56" height="5" rx="2.5" fill="#d9d3ea"/><rect x="290" y="318" width="38" height="5" rx="2.5" fill="#d9d3ea"/><circle cx="92" cy="340" r="15" fill="#fff"/><path d="M107 335 h5 a6 6 0 0 1 0 12 h-5" fill="none" stroke="#fff" stroke-width="4"/><circle class="dash" cx="330" cy="180" r="34" fill="none" stroke="#fff" stroke-width="3.5"/><rect x="318" y="158" width="24" height="44" rx="6" fill="#3d3257"/><path d="M304 206 L356 154" stroke="#f2766b" stroke-width="5" stroke-linecap="round"/><rect x="410" y="130" width="300" height="240" rx="20" fill="#fff" opacity=".96"/><circle cx="442" cy="172" r="16" fill="none" stroke="#d9d3ea" stroke-width="3"/><g class="ck c1"><circle cx="442" cy="172" r="16" fill="#55aaa4"/><path d="M435 172 L440 177 L450 167" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="472" y="178" class="lb2" style="font-size:17px">Clear desk</text><circle cx="442" cy="224" r="16" fill="none" stroke="#d9d3ea" stroke-width="3"/><g class="ck c2"><circle cx="442" cy="224" r="16" fill="#55aaa4"/><path d="M435 224 L440 229 L450 219" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="472" y="230" class="lb2" style="font-size:17px">Phone out of reach</text><circle cx="442" cy="276" r="16" fill="none" stroke="#d9d3ea" stroke-width="3"/><g class="ck c3"><circle cx="442" cy="276" r="16" fill="#55aaa4"/><path d="M435 276 L440 281 L450 271" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="472" y="282" class="lb2" style="font-size:17px">Notifications off</text><circle cx="442" cy="328" r="16" fill="none" stroke="#d9d3ea" stroke-width="3"/><g class="ck c4"><circle cx="442" cy="328" r="16" fill="#55aaa4"/><path d="M435 328 L440 333 L450 323" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g><text x="472" y="334" class="lb2" style="font-size:17px">One clear task</text>
+<text x="55" y="408" class="f">ProcrastiNO! · Learn, practice, move forward</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7865a9"/><stop offset="1" stop-color="#55aaa4"/></linearGradient></defs>
+<style>
+.t{font:700 34px Arial,sans-serif;fill:#fff}
+.s{font:500 19px Arial,sans-serif;fill:#f5f1ff}
+.f{font:500 15px Arial,sans-serif;fill:#f5f1ff;opacity:.85}
+.lb{font:700 20px Arial,sans-serif;fill:#332a4b}
+.ax{font:700 15px Arial,sans-serif;fill:#f5f1ff}
+.num{font:700 24px Arial,sans-serif;fill:#fff}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.lb2{font:700 18px Arial,sans-serif;fill:#332a4b}
+.s2{font:600 18px Arial,sans-serif;fill:#fff}
+.nd{font:700 18px Arial,sans-serif;fill:#332a4b}
+.cap{font:700 17px Arial,sans-serif;fill:#fff}
+
+.card{transform-origin:180px 245px;animation:mv 5s ease-in-out infinite}
+@keyframes mv{0%{opacity:0;transform:translate(0,0) scale(1)}8%,18%{opacity:1;transform:translate(0,0) scale(1)}55%{opacity:1;transform:translate(295px,-59px) scale(.45)}65%,100%{opacity:0;transform:translate(295px,-59px) scale(.45)}}
+.hit{transform-box:fill-box;transform-origin:center;animation:hit 5s ease-in-out infinite}
+@keyframes hit{0%,52%{transform:scale(1)}62%{transform:scale(1.07)}78%,100%{transform:scale(1)}}
+</style>
+<rect width="760" height="430" rx="34" fill="url(#g)"/>
+<circle cx="700" cy="60" r="110" fill="#fff" opacity=".08"/><circle cx="60" cy="390" r="150" fill="#fff" opacity=".07"/>
+<text x="55" y="68" class="t">Matriz de Eisenhower</text><text x="55" y="100" class="s">¿Qué hago primero?</text>
+<g class="hit"><rect x="400" y="140" width="150" height="92" rx="18" fill="#fff" opacity=".96"/><circle cx="430" cy="172" r="19" fill="#f2766b"/><g transform="translate(430,172)"><path d="M0 -10 C6 -4 8 0 6 5 A6 6 0 0 1 -6 5 C-8 1 -3 -2 0 -10Z" fill="#fff"/></g><text x="414" y="216" class="lb2" style="font-size:17px">Hacer ahora</text></g><g class=""><rect x="560" y="140" width="150" height="92" rx="18" fill="#fff" opacity=".96"/><circle cx="590" cy="172" r="19" fill="#55aaa4"/><g transform="translate(590,172)"><rect x="-10" y="-8" width="20" height="18" rx="3" fill="none" stroke="#fff" stroke-width="3"/><path d="M-10 -2 H10 M-5 -11 V-6 M5 -11 V-6" stroke="#fff" stroke-width="3" stroke-linecap="round"/></g><text x="574" y="216" class="lb2" style="font-size:17px">Planificar</text></g><g class=""><rect x="400" y="242" width="150" height="92" rx="18" fill="#fff" opacity=".96"/><circle cx="430" cy="274" r="19" fill="#f5c04a"/><g transform="translate(430,274)"><circle cx="-5" cy="0" r="6" fill="none" stroke="#fff" stroke-width="3"/><circle cx="5" cy="0" r="6" fill="none" stroke="#fff" stroke-width="3"/></g><text x="414" y="318" class="lb2" style="font-size:17px">Delegar</text></g><g class=""><rect x="560" y="242" width="150" height="92" rx="18" fill="#fff" opacity=".96"/><circle cx="590" cy="274" r="19" fill="#a9a4b8"/><g transform="translate(590,274)"><path d="M-8 4 C-6 -6 4 -8 9 -3 C5 -2 3 2 -1 5 C-3 7 -6 7 -8 4Z" fill="#fff"/></g><text x="574" y="318" class="lb2" style="font-size:17px">Para después</text></g><g class="card"><rect x="60" y="200" width="240" height="90" rx="16" fill="#fff"/><rect x="60" y="200" width="12" height="90" rx="6" fill="#f2766b"/><text x="90" y="238" class="lb2">Entrega importante</text><text x="90" y="266" style="font:600 17px Arial,sans-serif;fill:#f2766b">vence hoy</text></g>
+<text x="55" y="408" class="f">ProcrastiNO! · Aprende, practica y avanza</text>
+</svg>

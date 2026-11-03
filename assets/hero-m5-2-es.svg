@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7865a9"/><stop offset="1" stop-color="#55aaa4"/></linearGradient></defs>
+<style>
+.t{font:700 34px Arial,sans-serif;fill:#fff}
+.s{font:500 19px Arial,sans-serif;fill:#f5f1ff}
+.f{font:500 15px Arial,sans-serif;fill:#f5f1ff;opacity:.85}
+.lb{font:700 20px Arial,sans-serif;fill:#332a4b}
+.ax{font:700 15px Arial,sans-serif;fill:#f5f1ff}
+.num{font:700 24px Arial,sans-serif;fill:#fff}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.lb2{font:700 18px Arial,sans-serif;fill:#332a4b}
+.s2{font:600 18px Arial,sans-serif;fill:#fff}
+.nd{font:700 18px Arial,sans-serif;fill:#332a4b}
+.cap{font:700 17px Arial,sans-serif;fill:#fff}
+
+.climb{animation:cl 5s ease-in-out infinite}
+@keyframes cl{0%,8%{opacity:1;transform:translate(0,0)}28%{transform:translate(90px,-50px)}48%{transform:translate(180px,-100px)}68%,86%{opacity:1;transform:translate(270px,-150px)}100%{opacity:0;transform:translate(270px,-150px)}}
+.nx{animation:nx 2.4s ease-in-out infinite}
+@keyframes nx{0%,100%{opacity:1}50%{opacity:.7}}
+.wave{transform-origin:395px 140px;animation:wv 2.6s ease-in-out infinite}
+@keyframes wv{0%,100%{transform:skewY(0deg)}50%{transform:skewY(-6deg)}}
+</style>
+<rect width="760" height="430" rx="34" fill="url(#g)"/>
+<circle cx="700" cy="60" r="110" fill="#fff" opacity=".08"/><circle cx="60" cy="390" r="150" fill="#fff" opacity=".07"/>
+<text x="55" y="68" class="t">De la meta al paso</text><text x="55" y="100" class="s">Un paso pequeño y una fecha de revisión</text>
+<rect class="nx" x="60" y="290" width="90" height="50" rx="12" fill="#55aaa4" opacity=".97"/><rect x="150" y="240" width="90" height="100" rx="12" fill="#fff" opacity=".97"/><rect x="240" y="190" width="90" height="150" rx="12" fill="#fff" opacity=".97"/><rect x="330" y="140" width="90" height="200" rx="12" fill="#fff" opacity=".97"/><line x1="395" y1="140" x2="395" y2="100" stroke="#fff" stroke-width="4" stroke-linecap="round"/><g class="wave"><path d="M395 100 L430 111 L395 122Z" fill="#f2766b"/></g><g class="climb"><circle cx="105" cy="278" r="13" fill="#ffd36b" stroke="#fff" stroke-width="3.5"/></g><g><rect x="460" y="150" width="250" height="52" rx="26.0" fill="#fff" opacity=".96"/><circle cx="490.0" cy="176.0" r="20" fill="#7865a9"/><g transform="translate(490.0,176.0)"><circle r="10" fill="none" stroke="#fff" stroke-width="3"/><circle r="4" fill="#fff"/></g><text x="522" y="182.0" class="lb2">Meta académica</text></g><g><rect x="460" y="222" width="250" height="52" rx="26.0" fill="#fff" opacity=".96"/><circle cx="490.0" cy="248.0" r="20" fill="#7865a9"/><g transform="translate(490.0,248.0)"><path d="M-9 0 H8 M2 -7 L9 0 L2 7" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><text x="522" y="254.0" class="lb2">Siguiente paso</text></g><g><rect x="460" y="294" width="250" height="52" rx="26.0" fill="#fff" opacity=".96"/><circle cx="490.0" cy="320.0" r="20" fill="#7865a9"/><g transform="translate(490.0,320.0)"><rect x="-10" y="-8" width="20" height="18" rx="3" fill="none" stroke="#fff" stroke-width="3"/><path d="M-10 -2 H10 M-5 -11 V-6 M5 -11 V-6" stroke="#fff" stroke-width="3" stroke-linecap="round"/></g><text x="522" y="326.0" class="lb2">Fecha de revisión</text></g>
+<text x="55" y="408" class="f">ProcrastiNO! · Aprende, practica y avanza</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7865a9"/><stop offset="1" stop-color="#55aaa4"/></linearGradient></defs>
+<style>
+.t{font:700 34px Arial,sans-serif;fill:#fff}
+.s{font:500 19px Arial,sans-serif;fill:#f5f1ff}
+.f{font:500 15px Arial,sans-serif;fill:#f5f1ff;opacity:.85}
+.lb{font:700 20px Arial,sans-serif;fill:#332a4b}
+.ax{font:700 15px Arial,sans-serif;fill:#f5f1ff}
+.num{font:700 24px Arial,sans-serif;fill:#fff}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.eye{transform-origin:88px 172px;animation:blink 4s infinite}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+.ecg{stroke-dasharray:260;animation:ecg 3s linear infinite}
+@keyframes ecg{0%{stroke-dashoffset:260}70%,100%{stroke-dashoffset:0}}
+.sway{transform-origin:320px 318px;animation:sway 4s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+.sc{font:700 18px Arial,sans-serif;fill:#d9f5f1}
+</style>
+<rect width="760" height="430" rx="34" fill="url(#g)"/>
+<circle cx="700" cy="60" r="110" fill="#fff" opacity=".08"/><circle cx="60" cy="390" r="150" fill="#fff" opacity=".07"/>
+<text x="55" y="68" class="t">Digital health</text><text x="55" y="100" class="s">Take care of your body and eyes</text>
+<rect x="50" y="140" width="220" height="160" rx="16" fill="#3d3257"/><rect x="50" y="140" width="220" height="160" rx="16" fill="none" stroke="#fff" stroke-width="5" opacity=".9"/><rect x="140" y="300" width="40" height="26" fill="#fff" opacity=".9"/><rect x="110" y="326" width="100" height="10" rx="5" fill="#fff"/><g class="eye"><ellipse cx="88" cy="172" rx="18" ry="11" fill="#fff"/><circle cx="88" cy="172" r="6.5" fill="#55aaa4"/></g><text x="120" y="178" class="sc">20·20·20</text><polyline class="ecg" points="70,252 100,252 118,218 136,274 154,236 170,252 250,252" fill="none" stroke="#7fe0d6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><line x1="40" y1="346" x2="350" y2="346" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".6"/><g class="sway"><ellipse cx="320" cy="296" rx="8" ry="24" fill="#bfe9e4"/><ellipse cx="304" cy="302" rx="8" ry="22" fill="#9fdcd5" transform="rotate(-32 304 302)"/><ellipse cx="336" cy="302" rx="8" ry="22" fill="#9fdcd5" transform="rotate(32 336 302)"/></g><path d="M304 346 L310 318 H330 L336 346Z" fill="#fff"/><g><rect x="440" y="140" width="260" height="52" rx="26" fill="#fff" opacity=".96"/><circle cx="470" cy="166" r="20" fill="#7865a9"/><g transform="translate(470,166)"><ellipse rx="11" ry="7" fill="#fff"/><circle r="4" fill="#7865a9"/></g><text x="502" y="173" class="lb">20-20-20 rule</text></g><g><rect x="440" y="210" width="260" height="52" rx="26" fill="#fff" opacity=".96"/><circle cx="470" cy="236" r="20" fill="#7865a9"/><g transform="translate(470,236)"><circle cx="0" cy="-9" r="4.5" fill="#fff"/><path d="M0 -3 V9 M-8 2 H8" stroke="#fff" stroke-width="3.5" stroke-linecap="round" fill="none"/></g><text x="502" y="243" class="lb">Straight back</text></g><g><rect x="440" y="280" width="260" height="52" rx="26" fill="#fff" opacity=".96"/><circle cx="470" cy="306" r="20" fill="#7865a9"/><g transform="translate(470,306)"><rect x="-8" y="-9" width="5.5" height="18" rx="2" fill="#fff"/><rect x="2.5" y="-9" width="5.5" height="18" rx="2" fill="#fff"/></g><text x="502" y="313" class="lb">Active breaks</text></g>
+<text x="55" y="408" class="f">ProcrastiNO! · Learn, practice, move forward</text>
+</svg>

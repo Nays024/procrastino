@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7865a9"/><stop offset="1" stop-color="#55aaa4"/></linearGradient></defs>
+<style>
+.t{font:700 34px Arial,sans-serif;fill:#fff}
+.s{font:500 19px Arial,sans-serif;fill:#f5f1ff}
+.f{font:500 15px Arial,sans-serif;fill:#f5f1ff;opacity:.85}
+.lb{font:700 20px Arial,sans-serif;fill:#332a4b}
+.ax{font:700 15px Arial,sans-serif;fill:#f5f1ff}
+.num{font:700 24px Arial,sans-serif;fill:#fff}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.lb2{font:700 18px Arial,sans-serif;fill:#332a4b}
+.s2{font:600 18px Arial,sans-serif;fill:#fff}
+.nd{font:700 18px Arial,sans-serif;fill:#332a4b}
+.cap{font:700 17px Arial,sans-serif;fill:#fff}
+
+.mag{animation:scan 5s ease-in-out infinite}
+@keyframes scan{0%,100%{transform:translate(0,0)}50%{transform:translate(65px,95px)}}
+.bd{transform-box:fill-box;transform-origin:center;animation:pop 1.8s ease-in-out infinite}
+.bd2{animation-delay:-.6s}.bd3{animation-delay:-1.2s}
+@keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.25)}}
+.bn{font:700 13px Arial,sans-serif;fill:#fff}
+</style>
+<rect width="760" height="430" rx="34" fill="url(#g)"/>
+<circle cx="700" cy="60" r="110" fill="#fff" opacity=".08"/><circle cx="60" cy="390" r="150" fill="#fff" opacity=".07"/>
+<text x="55" y="68" class="t">Ladrones digitales</text><text x="55" y="100" class="s">Tú decides cómo usar la tecnología</text>
+<rect x="90" y="130" width="140" height="250" rx="26" fill="#3d3257"/><rect x="90" y="130" width="140" height="250" rx="26" fill="none" stroke="#fff" stroke-width="5"/><rect x="138" y="140" width="44" height="6" rx="3" fill="#fff" opacity=".6"/><rect x="106" y="165" width="48" height="48" rx="12" fill="#7865a9"/><rect x="166" y="165" width="48" height="48" rx="12" fill="#55aaa4"/><rect x="106" y="225" width="48" height="48" rx="12" fill="#f5c04a"/><rect x="166" y="225" width="48" height="48" rx="12" fill="#a9a4b8"/><rect x="106" y="285" width="48" height="48" rx="12" fill="#7865a9"/><rect x="166" y="285" width="48" height="48" rx="12" fill="#55aaa4"/><g class="bd"><circle cx="154" cy="165" r="11" fill="#f2766b"/><text x="154" y="170" text-anchor="middle" class="bn">3</text></g><g class="bd bd2"><circle cx="214" cy="225" r="11" fill="#f2766b"/><text x="214" y="230" text-anchor="middle" class="bn">9</text></g><g class="bd bd3"><circle cx="154" cy="285" r="11" fill="#f2766b"/><text x="154" y="290" text-anchor="middle" class="bn">1</text></g><g transform="translate(125,205)"><g class="mag"><circle r="40" fill="#fff" fill-opacity=".18" stroke="#fff" stroke-width="8"/><path d="M29 29 L60 60" stroke="#fff" stroke-width="11" stroke-linecap="round"/></g></g><g><rect x="440" y="150" width="260" height="52" rx="26.0" fill="#fff" opacity=".96"/><circle cx="470.0" cy="176.0" r="20" fill="#7865a9"/><g transform="translate(470.0,176.0)"><circle r="10" fill="none" stroke="#fff" stroke-width="3"/><path d="M0 -5 V0 L5 3" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g><text x="502" y="182.0" class="lb">¿Cuándo?</text></g><g><rect x="440" y="222" width="260" height="52" rx="26.0" fill="#fff" opacity=".96"/><circle cx="470.0" cy="248.0" r="20" fill="#7865a9"/><g transform="translate(470.0,248.0)"><circle r="10" fill="none" stroke="#fff" stroke-width="3"/><circle r="4" fill="#fff"/></g><text x="502" y="254.0" class="lb">¿Para qué?</text></g><g><rect x="440" y="294" width="260" height="52" rx="26.0" fill="#fff" opacity=".96"/><circle cx="470.0" cy="320.0" r="20" fill="#7865a9"/><g transform="translate(470.0,320.0)"><path d="M-7 -9 H7 L0 0 Z M-7 9 H7 L0 0 Z" fill="#fff"/></g><text x="502" y="326.0" class="lb">¿Cuánto tiempo?</text></g>
+<text x="55" y="408" class="f">ProcrastiNO! · Aprende, practica y avanza</text>
+</svg>

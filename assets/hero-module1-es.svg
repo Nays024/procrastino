@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7865a9"/><stop offset="1" stop-color="#55aaa4"/></linearGradient></defs>
+<style>
+.t{font:700 34px Arial,sans-serif;fill:#fff}
+.s{font:500 19px Arial,sans-serif;fill:#f5f1ff}
+.f{font:500 15px Arial,sans-serif;fill:#f5f1ff;opacity:.85}
+.lb{font:700 20px Arial,sans-serif;fill:#332a4b}
+.ax{font:700 15px Arial,sans-serif;fill:#f5f1ff}
+.num{font:700 24px Arial,sans-serif;fill:#fff}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.hour{transform-origin:230px 262px;animation:spin 60s linear infinite}
+.min{transform-origin:230px 262px;animation:spin 8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.b{animation:drift 3.4s ease-in-out infinite}
+.b2{animation-delay:-.8s}.b3{animation-delay:-1.6s}.b4{animation-delay:-2.4s}
+@keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(14px)}}
+.dash{stroke-dasharray:6 8;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-28}}
+</style>
+<rect width="760" height="430" rx="34" fill="url(#g)"/>
+<circle cx="700" cy="60" r="110" fill="#fff" opacity=".08"/><circle cx="60" cy="390" r="150" fill="#fff" opacity=".07"/>
+<text x="55" y="68" class="t">Ladrones de tiempo</text><text x="55" y="100" class="s">Detecta qué te distrae</text>
+<g><circle cx="230" cy="262" r="104" fill="#fff" opacity=".97"/><circle cx="230" cy="262" r="104" fill="none" stroke="#59497f" stroke-width="8"/><line x1="230.0" y1="180.0" x2="230.0" y2="168.0" stroke="#59497f" stroke-width="6" stroke-linecap="round"/><line x1="312.0" y1="262.0" x2="324.0" y2="262.0" stroke="#59497f" stroke-width="6" stroke-linecap="round"/><line x1="230.0" y1="344.0" x2="230.0" y2="356.0" stroke="#59497f" stroke-width="6" stroke-linecap="round"/><line x1="148.0" y1="262.0" x2="136.0" y2="262.0" stroke="#59497f" stroke-width="6" stroke-linecap="round"/><line class="hour" x1="230" y1="262" x2="230" y2="214" stroke="#59497f" stroke-width="9" stroke-linecap="round"/><line class="min" x1="230" y1="262" x2="230" y2="188" stroke="#55aaa4" stroke-width="6" stroke-linecap="round"/><circle cx="230" cy="262" r="9" fill="#59497f"/></g><line class="dash" x1="338" y1="262" x2="420" y2="162" stroke="#fff" stroke-width="3" opacity=".55"/><line class="dash" x1="338" y1="262" x2="420" y2="218" stroke="#fff" stroke-width="3" opacity=".55"/><line class="dash" x1="338" y1="262" x2="420" y2="274" stroke="#fff" stroke-width="3" opacity=".55"/><line class="dash" x1="338" y1="262" x2="420" y2="330" stroke="#fff" stroke-width="3" opacity=".55"/><g class="b b1"><rect x="420" y="140" width="260" height="44" rx="22" fill="#fff" opacity=".96"/><circle cx="448" cy="162" r="10" fill="#f2766b"/><text x="470" y="169" class="lb">Notificaciones</text></g><g class="b b2"><rect x="420" y="196" width="260" height="44" rx="22" fill="#fff" opacity=".96"/><circle cx="448" cy="218" r="10" fill="#f2766b"/><text x="470" y="225" class="lb">Scroll sin fin</text></g><g class="b b3"><rect x="420" y="252" width="260" height="44" rx="22" fill="#fff" opacity=".96"/><circle cx="448" cy="274" r="10" fill="#f2766b"/><text x="470" y="281" class="lb">Mensajes</text></g><g class="b b4"><rect x="420" y="308" width="260" height="44" rx="22" fill="#fff" opacity=".96"/><circle cx="448" cy="330" r="10" fill="#f2766b"/><text x="470" y="337" class="lb">Multitarea</text></g>
+<text x="55" y="408" class="f">ProcrastiNO! · Aprende, practica y avanza</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7865a9"/><stop offset="1" stop-color="#55aaa4"/></linearGradient></defs>
+<style>
+.t{font:700 34px Arial,sans-serif;fill:#fff}
+.s{font:500 19px Arial,sans-serif;fill:#f5f1ff}
+.f{font:500 15px Arial,sans-serif;fill:#f5f1ff;opacity:.85}
+.lb{font:700 20px Arial,sans-serif;fill:#332a4b}
+.ax{font:700 15px Arial,sans-serif;fill:#f5f1ff}
+.num{font:700 24px Arial,sans-serif;fill:#fff}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.arc{stroke-dasharray:251.3;animation:fill 6s linear infinite}
+@keyframes fill{0%{stroke-dashoffset:251.3}100%{stroke-dashoffset:0}}
+.pulse{animation:pl 2.2s ease-in-out infinite}
+@keyframes pl{0%,100%{opacity:.96}50%{opacity:.7}}
+.wob{transform-origin:190px 285px;animation:wob 3s ease-in-out infinite}
+@keyframes wob{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+.big{font:700 34px Arial,sans-serif;fill:#59497f}
+.sm{font:600 15px Arial,sans-serif;fill:#59497f}
+</style>
+<rect width="760" height="430" rx="34" fill="url(#g)"/>
+<circle cx="700" cy="60" r="110" fill="#fff" opacity=".08"/><circle cx="60" cy="390" r="150" fill="#fff" opacity=".07"/>
+<text x="55" y="68" class="t">Estrategias que funcionan</text><text x="55" y="100" class="s">Pomodoro + Eisenhower</text>
+<g class="wob"><circle cx="190" cy="285" r="82" fill="#f2766b"/><ellipse cx="160" cy="250" rx="16" ry="26" fill="#fff" opacity=".18" transform="rotate(25 160 250)"/><path d="M190 206 C170 180 140 186 132 200 C152 220 176 218 190 206Z" fill="#5fb87a"/><path d="M190 206 C210 180 240 186 248 200 C228 220 204 218 190 206Z" fill="#4aa56a"/><rect x="186" y="190" width="8" height="22" rx="4" fill="#3f8f5c"/></g><circle cx="190" cy="285" r="50" fill="#fff"/><circle cx="190" cy="285" r="40" fill="none" stroke="#e7e3f2" stroke-width="9"/><circle class="arc" cx="190" cy="285" r="40" fill="none" stroke="#55aaa4" stroke-width="9" stroke-linecap="round" transform="rotate(-90 190 285)"/><text x="190" y="293" text-anchor="middle" class="big">25</text><text x="190" y="311" text-anchor="middle" class="sm">min</text><text x="505" y="124" text-anchor="middle" class="ax">Urgente</text><text x="643" y="124" text-anchor="middle" class="ax">No urgente</text><text transform="translate(424,185) rotate(-90)" text-anchor="middle" class="ax">Importante</text><text transform="translate(424,293) rotate(-90)" text-anchor="middle" class="ax">No importante</text><g class=""><rect x="440" y="135" width="130" height="100" rx="16" fill="#fff" opacity="0.97"/><rect x="440" y="135" width="130" height="10" rx="5" fill="#f2766b"/><text x="505" y="195" text-anchor="middle" class="lb">Hacer ya</text></g><g class="pulse"><rect x="578" y="135" width="130" height="100" rx="16" fill="#fff" opacity="0.97"/><rect x="578" y="135" width="130" height="10" rx="5" fill="#55aaa4"/><text x="643" y="195" text-anchor="middle" class="lb">Planificar</text></g><g class=""><rect x="440" y="243" width="130" height="100" rx="16" fill="#fff" opacity="0.88"/><rect x="440" y="243" width="130" height="10" rx="5" fill="#f5c04a"/><text x="505" y="303" text-anchor="middle" class="lb">Delegar</text></g><g class=""><rect x="578" y="243" width="130" height="100" rx="16" fill="#fff" opacity="0.8"/><rect x="578" y="243" width="130" height="10" rx="5" fill="#a9a4b8"/><text x="643" y="303" text-anchor="middle" class="lb">Eliminar</text></g>
+<text x="55" y="408" class="f">ProcrastiNO! · Aprende, practica y avanza</text>
+</svg>
